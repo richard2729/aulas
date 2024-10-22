@@ -1,0 +1,8 @@
+document.addEventListener('deviceready', function() {
+    document.addEventListener('pause', onPause, false);
+}, false);
+
+function onPause() {
+    alert('A aplicação foi pausada!');
+    // Aqui você pode adicionar outras ações que deseja realizar ao pausar a app
+}
